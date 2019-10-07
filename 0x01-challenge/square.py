@@ -4,7 +4,7 @@ square module
 """
 
 
-class square():
+class Square:
 """ Square class """
 
     def __init__(self, *args, **kwargs):
