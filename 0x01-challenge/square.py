@@ -2,8 +2,11 @@
 """
 square module
 """
+
+
 class square():
 """ Square class """
+
     def __init__(self, *args, **kwargs):
     """ Initialize attrs """
         self.width = 0
