@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-MODULE DOCSTRING
+module for Square clas
 """
 
 
