@@ -6,7 +6,7 @@ class Square:
 """ Square class """
 
     def __init__(self, *args, **kwargs):
-    """ Initialize attrs """
+    """ Initialize a new instance of a Square """
         self.width = 0
         self.height = 0
         for key, value in kwargs.items():
@@ -16,7 +16,7 @@ class Square:
         """ Area of the square """
         return self.width * self.width
 
-    def perimeter_of_my_square(self):
+    def permiter_of_my_square(self):
         """ Perimerter of the square """
         return (self.width * 2) + (self.height * 2)
 
